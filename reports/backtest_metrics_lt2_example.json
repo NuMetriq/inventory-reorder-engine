@@ -1,0 +1,13 @@
+{
+  "lead_time_weeks": 2,
+  "series_simulated": 9147,
+  "total_demand": 644628.0,
+  "lost_sales_base": 50849.875,
+  "lost_sales_ml": 12872.705252407117,
+  "fill_rate_base": 0.9211174894667933,
+  "fill_rate_ml": 0.9800308003183121,
+  "avg_on_hand_base": 12.308983038935482,
+  "avg_on_hand_ml": 20.288833776667946,
+  "total_ordered_base": 613580.375,
+  "total_ordered_ml": 608189.2955847271
+}
