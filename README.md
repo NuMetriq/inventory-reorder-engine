@@ -28,6 +28,20 @@ Probabilistic demand forecasting + reorder recommendations at scale using the M5
 
 \- `data/` local data (ignored by git)
 
+## Data
+This project uses the M5 Forecasting dataset (Walmart).
+
+Due to Kaggle licensing, raw data files are not included in this repository.
+
+Expected local layout:
+data/
+  m5_raw/
+    calendar.csv
+    sales_train_validation.csv
+    sell_prices.csv
+
+See `scripts/build_dataset.py` for details.
+
 
 
 \## Status
