@@ -462,8 +462,8 @@ def main() -> int:
     }
 
     # Save outputs
-    summary_csv = cfg.out_dir / "backtest_summary.csv"
-    metrics_json = cfg.out_dir / "backtest_metrics.json"
+    summary_csv = cfg.out_dir / f"backtest_summary_lt{cfg.lead_time}.csv"
+    metrics_json = cfg.out_dir / f"backtest_metrics_lt{cfg.lead_time}.json"
 
     out_df.to_csv(summary_csv, index=False)
     metrics_json.write_text(json.dumps(summary, indent=2))
